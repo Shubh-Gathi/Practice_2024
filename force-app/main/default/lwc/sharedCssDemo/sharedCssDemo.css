@@ -1,0 +1,6 @@
+@import "c/cssLibrary";
+
+.btng{
+    --slds-c-button-brand-color-background: violet;  /* here we can use SLDS Design tokens as well */
+    --slds-c-button-brand-color-background-hover: yellow; 
+}

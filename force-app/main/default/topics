@@ -1,9 +1,57 @@
 
+//let,const and var
+// spread operator
+// string interpolation
+//arrow function and call back function
+//array methods
+// string methods
 // Events
 //setTimeout and setTimeInterval
 //export and import
 //Promises/Async await
 //fetchAPI and Debugging
-// dynamic web to lead form ---optional
-//
+//dynamic web to lead form ---optional
+----------------------------------------------------------------------------------------------
+                                LWC topics
+
+Bundle Structure, naming convention
+CSS
+  Host Selector  
+  shared css between component
+  SLDS Design Tokens 
+  custom design tokens with AURA Tokens
+  custom styling hooks // to override the standard styling like changing the background of button
+
+Decorators
+@track
+@Api
+---parent to child communication
+--- getter--> it is a function that computes value to the property---> it always have return statement.
+---- setter--> it is used to perform action i.e logic on the value --> setter is mostly used when we need to perform logic on value that is passed from parent component.
+--- we can annoted getter and setter with @api, best practice is to annoted the getter
+@wire
+
+conditional Rendering
+lwc:if
+lwc:elseif
+lwc:else
+
+Rendering array of object, array, object
+For:Each 
+iteraor // to perform special behavior on first and last item of an list we use itarator.
+querySelector() and querySelectorAll()
+
+LWC Lifecycle hooks-------
+Constructor()
+ConnectedCallback() ------------disconnectedcallback()
+render()
+rendercallback()
+errorcallback()
+
+
+                                                
+
+
+
+
 

@@ -1,0 +1,16 @@
+h1{
+    font-size: large;
+    color: red;
+}
+.paraclass{
+    font-size: medium;
+    color: blue;
+}
+ 
+h3{
+    color: var(--lwc-brandAccessible);  /*SLDS Design Token */
+}
+
+h2{
+    color:var(--c-customcolor); /* SLDS Design Token with AURA Token*/
+}

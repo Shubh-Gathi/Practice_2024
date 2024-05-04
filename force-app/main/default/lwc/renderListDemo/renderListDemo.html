@@ -1,0 +1,20 @@
+<template>
+    <lightning-card title="Rendering Complex Object">
+        <div class="slds-var-p-around_small">
+            <template for:each={contactList} for:item="contacts">
+                <p key={contacts.id}>{contacts.fname} {contacts.lname}</p>
+            </template>
+        </div>
+    </lightning-card>
+    <lightning-card title="Render List using iterator">
+<div class="slds-var-p-around_small">
+<template iterator:it={contactList}>
+<div key={it.value.id}>
+    <div lwc:if={it.first} class="list-first"></div>
+    <div>{it.value.fname} {it.value.lname}</div>
+    <div lwc:if={it.last} class="list-last"></div>
+</div>
+</template>
+</div>
+    </lightning-card>
+</template>

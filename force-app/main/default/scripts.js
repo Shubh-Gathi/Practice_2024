@@ -6,4 +6,5 @@ function submitHandler() {
     //converting string date to localeDate, for localedate use developer console using userInfo.getlocale() method
     let formatedDate = new Date(inputdate.value).toLocaleDateString('en-IN');
     outputdate.value = formatedDate;
+
 }
